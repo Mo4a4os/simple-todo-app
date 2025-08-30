@@ -1,0 +1,14 @@
+{
+  "name": "simple-todo-app-b3d3e7f50a6273d3c910010a5a137c3c1f43c0e4",
+  "version": "1.0.0",
+  "description": "```js MONGODB_URI=... PORT=5001 JWT_SECRET=...",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
