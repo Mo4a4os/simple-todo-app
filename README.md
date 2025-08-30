@@ -7,7 +7,7 @@ JWT_SECRET=...
 
 
 
-NODE_ENV=development
+NODE_ENV=production
 ```
 
 ### Build the app
