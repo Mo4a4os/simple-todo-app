@@ -10,7 +10,7 @@ export const useTodoStore = create((set) => ({
             const res = await axiosInstance.get("/todo");
             set({ todos: res.data });
         } catch (error) {
-            toast.error(error.response.data.message)
+            console.error(error.response.data.message)
         } finally {
             set({ isGettingTodos: false });
         }
