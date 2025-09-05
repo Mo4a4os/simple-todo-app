@@ -1,3 +1,7 @@
+### Visit site
+https://simple-todo-app-1.onrender.com/
+
+
 ### Setup .env file
 
 ```js
